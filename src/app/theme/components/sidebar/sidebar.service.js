@@ -71,7 +71,7 @@
               level: (s.name.match(/\./g) || []).length,
               order: meta.order,
               icon: meta.icon,
-              root: '#/' + s.name.replace('.', '/'),
+              root: '#/' + s.name.replace('.', '/')
             };
           })
           .sort(function (a, b) {
