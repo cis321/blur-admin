@@ -74,7 +74,7 @@
               root: '#/' + s.name.replace('.', '/'),
             };
           })
-          .sort(function(a, b) {
+          .sort(function (a, b) {
             return (a.level - b.level) * 100 + a.order - b.order;
           });
     }
