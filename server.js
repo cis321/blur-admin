@@ -1,6 +1,6 @@
 var compression = require('compression'); //libreria para comprimir los datos cuando los envia
 var serveStatic = require('serve-static');//Manejo de los archivos de forma estatica
-var express = require("express");
+var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 

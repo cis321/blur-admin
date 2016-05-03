@@ -5,8 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.theme.components')
-      .directive('sidebar', sidebar);
+  angular.module('BlurAdmin.theme.components').directive('sidebar', sidebar);
 
   /** @ngInject */
   function sidebar() {
@@ -16,5 +15,4 @@
       controller: 'SidebarCtrl'
     };
   }
-
 })();

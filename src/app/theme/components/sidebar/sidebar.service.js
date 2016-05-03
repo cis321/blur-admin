@@ -5,7 +5,7 @@
       .service('sidebarService', sidebarService);
 
   /** @ngInject */
-  function sidebarService($state) {
+  function sidebarService ($state) {
     var staticMenuItems = [ {
         title: 'Pages',
         icon: 'ion-document',

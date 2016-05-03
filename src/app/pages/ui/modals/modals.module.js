@@ -9,7 +9,7 @@
       .config(routeConfig);
 
   /** @ngInject */
-  function routeConfig($stateProvider) {
+  function routeConfig ($stateProvider) {
     $stateProvider
         .state('ui.modals', {
           url: '/modals',
@@ -17,9 +17,8 @@
           controller: 'ModalsPageCtrl',
           title: 'Modals',
           sidebarMeta: {
-            order: 300,
-          },
+            order: 300
+          }
         });
   }
-
 })();

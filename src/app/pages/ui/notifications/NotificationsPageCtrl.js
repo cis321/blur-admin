@@ -9,7 +9,7 @@
       .controller('NotificationsPageCtrl', NotificationsPageCtrl);
 
   /** @ngInject */
-  function NotificationsPageCtrl($scope, toastr, toastrConfig) {
+  function NotificationsPageCtrl ($scope, toastr, toastrConfig) {
     var defaultConfig = angular.copy(toastrConfig);
     $scope.types = ['success', 'error', 'info', 'warning'];
 

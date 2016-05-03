@@ -15,13 +15,12 @@
     'BlurAdmin.pages.tables',
     'BlurAdmin.pages.charts',
     'BlurAdmin.pages.maps',
-    'BlurAdmin.pages.profile',
+    'BlurAdmin.pages.profile'
   ])
       .config(routeConfig);
 
   /** @ngInject */
-  function routeConfig($urlRouterProvider) {
+  function routeConfig ($urlRouterProvider) {
     $urlRouterProvider.otherwise('/dashboard');
   }
-
 })();
